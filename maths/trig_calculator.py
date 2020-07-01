@@ -60,3 +60,5 @@ def right_angle():
 
 
 right_angle()
+
+# Todo: create more options for trigonometry calculations
