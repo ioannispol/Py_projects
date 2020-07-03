@@ -3,6 +3,7 @@
 
 import math
 import sympy
+from sympy import Symbol, Derivative
 
 # create a simple function
 
@@ -23,3 +24,7 @@ def der(f, v):
     return float("%.3f" % slope)
 
 print(der(f, 16))
+
+t = Symbol('t')
+St = 5*t**2 + 2*t +8
+Derivative(St, t)
