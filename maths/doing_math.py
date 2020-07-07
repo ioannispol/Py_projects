@@ -62,17 +62,18 @@ if __name__ == '__main__':
         theta = math.radians(theta)
         create_animation(u, theta)
 
-
 """Derivative calculator"""
 
 from sympy import Symbol, Derivative, sympify, pprint
 from sympy.core.sympify import SympifyError
 
+
 def derivative(f, var):
     var = Symbol(var)
     d = Derivative(f, var).doit()
     pprint(d)
-    
+
+
 if __name__ == '__main__':
     f = input("Enter a function: ")
     var = input("Enter the variable to differenciate with respect to: ")
