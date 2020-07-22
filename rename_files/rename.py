@@ -1,3 +1,12 @@
+"""
+A python script which perform bulk rename to files in a directory
+needs three inputs:
+    - the direcotory path
+    - the name of the file that we want to use (the name should have
+    the form of name_)
+    - the extention of the file that we want (e.g. .jpg, .png)
+"""
+
 import os
 from natsort import natsorted
 from tqdm import tqdm
@@ -31,4 +40,4 @@ if __name__ == '__main__':
     path = input("Enter the directory path: ")
     new_name = input("Enter the new name: ")
     extension = input("Enter the extension for the file: ")
-    main(path, new_name, extension)
+    main(path, new_name, extension) 
