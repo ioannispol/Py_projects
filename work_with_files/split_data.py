@@ -1,3 +1,5 @@
+# TODO: Clean/tidy up the code
+
 import shutil
 import os
 #import numpy as np
